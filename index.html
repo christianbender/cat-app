@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Cat app</title>
+    <script src="src/module.js"></script>
+</head>
+
+<body>
+    <div class="w3-container w3-teal">
+        <h1>Cat app</h1>
+    </div>
+
+    <div class="w3-container">
+        <div class="w3-row">
+            <div class="w3-col s5 l8">
+                <p>This is a app for all cat-lovers.</p>
+            </div>
+            <form class="w3-conatiner">
+                <div class="w3-col s4 l2">
+                    <button type="button" class="w3-btn w3-blue" id="play-stop">Play/Stop</button>
+                </div>
+                <div class="w3-col s3 l2">
+                    <input id="duration" style="width: 25%;" type="number" min="5" max="180" step="1" value="5">
+                </div>
+            </form>
+        </div>
+        <!-- <p>This is a app for all cat-lovers.</p> -->
+        <img id="display-image" src="https://static.pexels.com/photos/92683/pexels-photo-92683.jpeg" alt="here goes the cat-pictures">
+    </div>
+
+    <div class="w3-container w3-teal">
+        <p>The image informations are in the file
+            <strong>data.json</strong>
+        </p>
+    </div>
+</body>
+
+</html>

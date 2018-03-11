@@ -1,0 +1,21 @@
+{
+  "name": "cat-app",
+  "version": "1.0.0",
+  "description": "a app for cat lovers",
+  "main": "index.js",
+  "scripts": {
+    "main": "nodejs index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cat",
+    "app",
+    "javascript"
+  ],
+  "author": "Christian Bender",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jquery": "^3.3.1",
+    "express": "^4.16.2"
+  }
+}
