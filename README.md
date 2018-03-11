@@ -34,6 +34,10 @@ After that you will find the app under [http://localhost:8081/index.html](http:/
 - [image1](https://www.pexels.com/de/foto/ausruhen-faul-gefleckt-gescheckt-271964/)  
 - [image2](https://www.pexels.com/de/foto/tier-katze-nahansicht-katzenartig-92683/)  
 - [image3](https://www.pexels.com/de/foto/tier-haustier-katze-nahansicht-36009/)  
+- [image4](https://www.pexels.com/photo/kitten-cat-rush-lucky-cat-45170/)  
+- [image5](https://www.pexels.com/photo/adorable-animal-baby-blur-177809/)  
+- [image6](https://www.pexels.com/photo/cat-whiskers-kitty-tabby-20787/)  
+- [image7](https://www.pexels.com/photo/white-and-black-cat-156934/)  
 
 ---
 
