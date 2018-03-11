@@ -4,7 +4,7 @@ $("document").ready(function () {
         // contains the images sources
         var imageList = [];
         // for running over the images.
-        var index = 0;
+        var index = 1;
         // flag for controling the dia-show
         var runFlag = false;
         // duration of the displaying picture.
@@ -18,13 +18,15 @@ $("document").ready(function () {
         // changes all times the image
         function changeImage() {
             if (runFlag) {
+                console.log(index); //DEBUG
                 if (index < imageList.length) {
-                    index++;
                     $("#display-image").attr("src", imageList[index]);
+                    index++;
                 }
                 else {
                     index = 0;
                     $("#display-image").attr("src", imageList[index]);
+                    index++;
                 }
             }
             duration = $("#duration").val();
