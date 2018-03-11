@@ -15,7 +15,7 @@ The app uses following technologies.
 
 ## Usage 
 
-Simply enjoy ...  Click [here](http://christainbender.github.io/cat-app)  
+Simply enjoy ...  Click [here](http://christianbender.github.io/cat-app)  
 If you use the app over the link (above) you don't need NodeJs ...  
 
 ---
