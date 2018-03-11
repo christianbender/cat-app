@@ -24,7 +24,7 @@ If you use the app over the link (above) you don't need NodeJs ...
 
 You can run the app with NodeJs.  
 ```npm install```  
-```node index.js```  
+```npm start```  
 After that you will find the app under [http://localhost:8081/index.html](http://localhost:8081/index.html).  
 
 ---
