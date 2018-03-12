@@ -37,8 +37,8 @@ $("document").ready(function () {
                 }
                 
             }
-            duration = <number><any>$("#duration").val();
-            duration *= 1000;
+            // duration = <number><any>$("#duration").val();
+            // duration *= 1000;
             setTimeout(changeImage, duration);
         }
 
@@ -62,7 +62,7 @@ $("document").ready(function () {
         $("#duration").change(function () {
             duration = <number><any>$("#duration").val();
             duration *= 1000;
-            setTimeout(changeImage, duration);
+            // setTimeout(changeImage, duration);
         });
 
     });

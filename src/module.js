@@ -29,8 +29,8 @@ $("document").ready(function () {
                     index++;
                 }
             }
-            duration = $("#duration").val();
-            duration *= 1000;
+            // duration = <number><any>$("#duration").val();
+            // duration *= 1000;
             setTimeout(changeImage, duration);
         }
         $("#play-stop").click(function () {
@@ -52,7 +52,7 @@ $("document").ready(function () {
         $("#duration").change(function () {
             duration = $("#duration").val();
             duration *= 1000;
-            setTimeout(changeImage, duration);
+            // setTimeout(changeImage, duration);
         });
     });
 });
