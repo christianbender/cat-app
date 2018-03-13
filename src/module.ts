@@ -35,7 +35,7 @@ $("document").ready(function () {
                     $("#display-image").attr("src", imageList[index]);
                     index++;
                 }
-                
+
             }
             // duration = <number><any>$("#duration").val();
             // duration *= 1000;
@@ -46,8 +46,10 @@ $("document").ready(function () {
             counter++;
             if (runFlag) {
                 runFlag = false;
+                $("#play-stop").css("background-color", "red");
             } else {
                 runFlag = true;
+                $("#play-stop").css("background-color", "#1fa3c4");
             }
 
             // for the first-time click on play/start-button
