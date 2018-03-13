@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
     <title>Cat app</title>
     <script src="src/module.js"></script>
 </head>
@@ -21,7 +22,7 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
     <div class="w3-container w3-teal">
-        <h1>Cat app</h1>
+        <h1 style="font-family: 'Itim', cursive;font-size:500%;">Cat app</h1>
     </div>
 
     <div class="w3-container">
@@ -40,7 +41,14 @@
             </form>
         </div>
         <!-- <p>This is a app for all cat-lovers.</p> -->
-        <img id="display-image" src="https://static.pexels.com/photos/92683/pexels-photo-92683.jpeg" alt="here goes the cat-pictures">
+        <div class="w3-row">
+            <div class="w3-col s10 l8">
+                <img id="display-image" src="https://static.pexels.com/photos/92683/pexels-photo-92683.jpeg" alt="here goes the cat-pictures">
+            </div>
+            <div class="w3-col s2 l4">
+                <button type="button" title="displays the next picture" id="next-btn" class="w3-btn w3-blue w3-round"><span style="font-size:140%;">&rarr;</span></button>
+            </div>
+        </div>
     </div>
 
     <div class="w3-container w3-teal">

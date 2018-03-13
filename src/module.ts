@@ -67,6 +67,21 @@ $("document").ready(function () {
             // setTimeout(changeImage, duration);
         });
 
+        // next button. displays the next picture.
+        $("#next-btn").click(function () {
+            if (!runFlag) {
+                if (index + 1 < imageList.length) {
+                    index++;
+                    $("#display-image").attr("src", imageList[index]);
+                } else {
+                    index = 0;
+                    $("#display-image").attr("src", imageList[index]);
+                }
+            } else { // error, diashow must been stopped.
+                alert("Diashow must been stopped before using the forward-button.");
+            }
+        })
+
     });
 });
 
