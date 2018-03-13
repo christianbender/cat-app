@@ -38,6 +38,10 @@ After that you will find the app under [http://localhost:8081/index.html](http:/
 - [image5](https://www.pexels.com/photo/adorable-animal-baby-blur-177809/)  
 - [image6](https://www.pexels.com/photo/cat-whiskers-kitty-tabby-20787/)  
 - [image7](https://www.pexels.com/photo/white-and-black-cat-156934/)  
+- [image8](https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/)  
+- [image9](https://www.pexels.com/photo/pet-cute-fur-animals-62321/)  
+- [image10](https://www.pexels.com/photo/russian-blue-kitten-on-brown-woven-basket-127027/)  
+- [image11](https://www.pexels.com/photo/close-up-photography-of-white-cat-besides-christmas-lights-735423/)  
 
 ---
 
